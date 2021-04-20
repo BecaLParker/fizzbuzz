@@ -1,6 +1,8 @@
 def fizzbuzz(number)
   if number % 3 == 0
-    return "fizz"
+    return 'fizz'
+  else number % 5 == 0
+       return 'buzz'
   end
-  return number
+  number
 end
